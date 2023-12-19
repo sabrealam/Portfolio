@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Slab:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Condensed&family=Roboto+Slab:wght@400;900&display=swap');
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Roboto Slab', serif;
+
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Roboto Slab', serif;
+
+*/
+
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+text-decoration: none;
+list-style: none;
+input{
+padding: 10px;
+border: none;
+}
+button{
+cursor: pointer;
+background-color: white;
+border: 1px solid rgb(211, 211, 211);
+}
+img{
+ width : 100%;
+height : 100%;
+}
+}
+:root{
+    --main-h1-font-color: red;
+    --main-h1-font-size: 35px;
+    --button-color : #fb3846;
+}
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.side-menu{
+    width: 8%; 
+    height: 670px;
+    /* aspect-ratio: 1/4.38; */
+    /* height: auto; */
+    position: fixed;
+    top: 0px;left: 0px;
+    /* border:2px solid red; */
+    /* overflow: scroll; */
+    padding: 5px;
+    background-color: black;
+}
+.side-menu::-webkit-scrollbar{
+    /* opacity: 0; */
+}
+.side-menu > div { 
+    display : flex;justify-content:center;
+    align-items:flex-start; 
+} 
+.side-menu > div{
+    display : flex;flex-direction: column;
+    justify-content:space-between;
+    align-items:center;
+    width : 100%;height : 100%;
+}
+.logo{
+    width : 50%;
+    height:7%;
+    /* border:2px solid red; */
+    /* display : grid ; place-items : center ; */
+    img{
+        width : 100%;height : 100%;
+    }
+}
+.side-menu > div > ul { 
+    height : 80%;
+    display : flex;
+    flex-direction: column;
+    justify-content:space-around;
+    /* border:2px solid red; */
+    cursor: pointer;
+}
+.side-menu > div > ul > li {
+    display : flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    font-size: 12px;
+    transform: rotateZ(270deg);
+}
+.share{
+    width : 50%;
+    height : 7%;
+    /* border:2px solid red; */
+    display : grid ; place-items : center ;
+}
+/* a,i{
+    display: none;
+} */
+i{
+    font-size: 20px;
+    color:var(--button-color);
+}
+span{
+    /* display: none; */
+    color:whitesmoke;
+}
+a{
+    /* display: none; */
+}
+
+.body{
+    width: 92%;
+    height :2000px;
+    /* border:2px solid rgb(13, 0, 255); */
+    position: absolute;
+    top: 0px;
+    left: 8%;
+    background-color: #18181e;
+}
