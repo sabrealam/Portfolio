@@ -40,6 +40,8 @@ rect.ContributionCalendar-day[data-level='4'] {
     padding: 1.5rem;
     box-shadow: rgba(100, 100, 111, 0.15) 0px 5px 25px 0px;
     transition: 0.5s;
+    /* overflow: scroll; */
+    /* background-color: cyan; */
 }
 
 .calendar:hover {
@@ -71,11 +73,14 @@ rect.ContributionCalendar-day[data-level='4'] {
     display: inline-block;
     width: 10px;
     height: 10px;
+    
+    
 }
 
 .text-small {
     font-size: 12px;
     color: #767676;
+    
 }
 
 .calendar-graph {
@@ -89,6 +94,7 @@ rect.ContributionCalendar-day[data-level='4'] {
     border-left: 1px solid #ddd;
     border-top: 1px solid #ddd;
     font-size: 12px;
+    
 }
 
 .contrib-column-first {
