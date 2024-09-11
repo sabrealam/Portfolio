@@ -9,7 +9,7 @@
     /* purple: 250, red:0, olive:50, green:140, blue:230 */
 
     /* HSL color mode*/
-    --first-color: #bd001c;
+    --first-color: #00bd87;
      /* hsl(var(--hue-color), 69%, 61%); */
     --first-color-second: #bd001c;
      /* hsl(var(--hue-color), 69%, 61%); */
@@ -27,7 +27,7 @@
     --body-color: #FFFFFFCC;
     /* hsl(var(--hue-color), 60%, 99%); */
     --container-color: #FFFFFFCC;
-    --scroll-bar-color: #bd001c;
+    --scroll-bar-color: #00babd;
     /* hsl(var(--hue-color), 12%, 90%); */
     --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
 
